@@ -1,0 +1,13 @@
+import java.util.Scanner;
+  public class Task30
+  {
+    public static void main(String[]arges)
+    {
+      Scanner sc= new Scanner(System.in);
+        
+      System.out.println("please enterthe number of published articles");
+      double N=sc.nextDouble();
+      
+       double monthly fees=N*500.0;
+      Systrm.out.println(monthly fees);
+      

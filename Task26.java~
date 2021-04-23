@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Task26
+{
+  public static void main(String[]arges)
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("please enter hours");
+   double hours=sc.nextDouble();
+    double salary=sc.nextDouble();
+    if(hours<=40.0)
+    {
+      salary=(200.0*hours);
+    }
+      
+    else
+    {
+      salary=800.0+(300.0*(hours-40.0));
+    }
+  
+    System.out.println(salary);
+    
+  }
+}

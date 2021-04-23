@@ -1,0 +1,13 @@
+
+public class Task12
+{
+  public static void main(String[]arges)
+  {
+   System.out.println(n=100);
+   int n=100;
+   int a=1;
+   int d=1;
+   int sum= n/2*(2*a*(n-1)*d);
+   System.out.println(sum);
+  }
+}

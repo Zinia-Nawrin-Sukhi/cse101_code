@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Task36
+{
+  public static void main(String[]args)
+  {
+    Scanner sc=new Scanner(System.in)
+      System.out.println("please enter gread1");
+    int gread1=sc.nextInt();
+  }
+}
